@@ -1,0 +1,48 @@
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.env
+.idea/
+.vscode/
+
+# Model weight files (large binaries, not for version control)
+classifier-resnet-weights.hdf5
+ResUNet-weights.hdf5
+weights_seg.hdf5
+weights.hdf5
+TCGA*/
+
+# Runtime data — may contain real user data, never commit
+neuroscan_data.json
+*.db
+
+# User-uploaded scan images
+uploads/
+scan_history/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Pytest
+.pytest_cache/
+
+# Test results
+junit.xml
+test_results/
+# Dataset, generated results, and trained experiment artifacts
+data.csv
+data_mask.csv
+outputs/
+dataset_reports/
+images/segmentation_predictions.png
+model_comparison/
+model_comparison_graph.png
+model_comparison_report.doc
+robustness/benchmark_outputs/
+robustness/outputs/
+robustness/reports/
+*.keras

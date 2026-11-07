@@ -1,0 +1,6 @@
+# Python 3.12 is required for the TensorFlow wheel on Windows.
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.2
+opencv-python>=4.8
+tensorflow>=2.20

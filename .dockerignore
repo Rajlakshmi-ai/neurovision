@@ -1,0 +1,15 @@
+.env
+.git
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+TCGA_*/
+dataset_reports/
+model_comparison/
+outputs/
+scan_history/
+uploads/
+*.ipynb
+data.csv
+data_mask.csv
